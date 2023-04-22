@@ -1,0 +1,12 @@
+body {
+    background-color: #F4F1E0;
+    color: #333333;
+    font-family: sans-serif;
+}
+li {
+    font-weight: 400;
+}
+.hero {
+    height: auto;
+    width: 700px;
+}
