@@ -10,3 +10,27 @@ li {
     height: auto;
     width: 700px;
 }
+.back-button {
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.5;
+    box-sizing: inherit;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    float: left!important;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    background-color: #04AA6D;
+    color: #ffffff;
+    border-color: #04AA6D;
+}
