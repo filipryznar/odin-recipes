@@ -2,6 +2,7 @@ body {
     background-color: #F4F1E0;
     color: #333333;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 li {
     font-weight: 400;
@@ -16,6 +17,8 @@ li {
     box-sizing: inherit;
     display: inline-block;
     padding: 8px 16px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     vertical-align: middle;
     overflow: hidden;
     text-decoration: none;
@@ -23,14 +26,108 @@ li {
     cursor: pointer;
     white-space: nowrap;
     user-select: none;
-    float: left!important;
+    
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     padding-left: 19px;
     padding-right: 19px;
     border: 1px solid #cccccc;
     border-radius: 5px;
-    background-color: #04AA6D;
+    background-color: rgb(179,57,81);
     color: #ffffff;
-    border-color: #04AA6D;
+    
+}
+/* * {
+    border: 2px solid red;
+}
+.main-menu {
+    display: flex;
+    list-style: none;
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+  }
+
+.main-menu  li {
+    border: 2px solid blue;
+    padding: .5em;
+    
+
+}*/
+
+.main-menu {
+    display: flex;
+    border: 5px solid #ffcc5c;
+   
+    
+  }
+  
+.main-menu > div{
+    flex: 1;
+    text-align: center;
+    background-color: rgb(179,57,81);
+    padding: 20px;
+    
+
+}
+
+.main-menu div a {  
+    color: white;
+    text-decoration: none; 
+}
+.main-menu div:hover {
+    background-color: rgb(66, 28, 40);
+    color: #fff;
+  }
+
+.flex {
+    border: 5px solid lightyellow;
+    
+    display: flex;
+   
+} 
+.flex div{
+    
+    padding: 20px;
+    margin: auto;
+    width: 300px;
+    flex: 1 1 auto;
+    
+}
+
+.flex .prvni {
+    background-color: #ffcc5c;
+    text-align: center;
+    
+}
+.flex .druhy {
+    background-color: lightcoral;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+.parent div{
+   flex: 0 0 200px;
+   border: #333333 2px solid;
+   text-align: center;
+   margin: 5px;
+   
+   
+}
+.con {
+    display: flex;
+}
+#fa {
+    border: #333333 2px solid;
+    text-align: center;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+    
 }
